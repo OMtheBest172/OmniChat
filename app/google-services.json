@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "988552914242",
+    "project_id": "omnichat-5fe4d",
+    "storage_bucket": "omnichat-5fe4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988552914242:android:35a224b18eef730fbc14db",
+        "android_client_info": {
+          "package_name": "com.example.omnichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988552914242-7c1gni8oe83o0coc9rblhb86p3uqe2ne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtMqb_bSVp6qkgPpYrqdF5MWMgpGzs--w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988552914242-7c1gni8oe83o0coc9rblhb86p3uqe2ne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

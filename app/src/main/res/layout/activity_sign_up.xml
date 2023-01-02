@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292929"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/ApLogo"
+        android:layout_width="284dp"
+        android:layout_height="288dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ApLogo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edt_background"
+        android:hint="Name"
+        android:paddingLeft="10dp"
+        android:paddingTop="9dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ApLogo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edt_background"
+        android:drawableLeft="@android:drawable/sym_action_email"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:paddingTop="9dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ApLogo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edt_background"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:hint="Password"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:paddingTop="9dp" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#D4E8FB"
+        android:textColor="@color/black"
+        android:text="Sign UP" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="70dp"
+        android:text="OmniChat : SignUp"
+        android:textSize="30dp"
+        android:textStyle = "bold"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
